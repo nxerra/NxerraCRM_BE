@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "jest": "^30.0.3",
+    "nodemon": "^3.1.10",
     "supertest": "^7.1.1"
   }
 }
