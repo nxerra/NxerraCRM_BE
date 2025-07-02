@@ -16,12 +16,10 @@ app.use(express.json());
 // ---------------- Check for backend run -------------
 // ----------------------------------------------------
 app.get("/api/v1/hello", (req, res) => {
-  res
-    .status(200)
-    .json({
-      message:
-        "Hello Developer, Your server is running well. You can move forward for development. Thank You",
-    });
+  res.status(200).json({
+    message:
+      "Hello Developer, Your server is running well. You can move forward for development. Thank You",
+  });
 });
 
 if (process.env.NODE_ENV !== "test") {
