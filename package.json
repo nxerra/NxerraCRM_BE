@@ -1,0 +1,35 @@
+{
+  "name": "nxerra-crm",
+  "version": "1.0.0",
+  "description": "crm for lead generation",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nxerra/NxerraCRM_BE.git"
+  },
+  "keywords": [
+    "crm"
+  ],
+  "author": "nxerra tech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nxerra/NxerraCRM_BE/issues"
+  },
+  "homepage": "https://github.com/nxerra/NxerraCRM_BE#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1"
+  },
+  "devDependencies": {
+    "jest": "^30.0.3",
+    "supertest": "^7.1.1"
+  }
+}
