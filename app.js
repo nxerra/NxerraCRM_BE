@@ -2,8 +2,8 @@
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
-import connectDB from "./config/db.js";
-import userRoutes from "./routes/test.routes.js";
+import connectDB from "./src/config/db.js";
+import userRoutes from "./src/routes/test.routes.js";
 
 dotenv.config();
 if (process.env.NODE_ENV !== "test") {
