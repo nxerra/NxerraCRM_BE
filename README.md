@@ -27,6 +27,27 @@ http://localhost:5000/api/v1/hello
 
 ```
 
+#### 🔄 For swagger api docs. Please run :
+
+```bash
+http://localhost:5000/api-docs
+
+```
+
+#### 🔄 To generate updated postman collection. Please run :
+
+```bash
+npm run generate:postman
+
+```
+
+#### 🔄 OR :
+
+```bash
+node scripts/generatePostman.js
+
+```
+
 #### You should see a response like: :
 
 ```bash

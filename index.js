@@ -9,6 +9,7 @@ import modRoutes from "./src/routes/moderator.routes.js";
 import clientRoutes from "./src/routes/client.routes.js";
 import invoiceRoutes from "./src/routes/invoice.routes.js";
 import leadRoutes from "./src/routes/lead.routes.js";
+import { setupSwaggerDocs } from "./src/docs/swagger.js";
 
 dotenv.config();
 if (process.env.NODE_ENV !== "test") {
@@ -39,7 +40,14 @@ app.get("/api/v1/hello", (req, res) => {
   });
 });
 
+// --------- Swagger setup -------------
+setupSwaggerDocs(app); // 👈 Swagger initialized here
+
+// --------- Server listener -------------
 if (process.env.NODE_ENV !== "test") {
   const PORT = process.env.PORT || 5000;
-  app.listen(PORT, () => console.log(`Boyaah, Server running on port ${PORT}`));
+  app.listen(PORT, () => {
+    console.log(`Boyaah, Server running on port ${PORT}`);
+    console.log(`Swagger available at http://localhost:${PORT}/api-docs`);
+  });
 }
