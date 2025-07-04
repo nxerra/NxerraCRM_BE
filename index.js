@@ -9,6 +9,9 @@ import modRoutes from "./src/routes/moderator.routes.js";
 import clientRoutes from "./src/routes/client.routes.js";
 import invoiceRoutes from "./src/routes/invoice.routes.js";
 import leadRoutes from "./src/routes/lead.routes.js";
+import dealRoutes from "./src/routes/deal.routes.js";
+import companyRoutes from "./src/routes/company.routes.js";
+import pipelineRoutes from "./src/routes/pipeline.routes.js";
 import { setupSwaggerDocs } from "./src/docs/swagger.js";
 
 dotenv.config();
@@ -30,6 +33,9 @@ app.use("/api/v1/mod", modRoutes);
 app.use("/api/v1/clients", clientRoutes);
 app.use("/api/v1/invoices", invoiceRoutes);
 app.use("/api/v1/leads", leadRoutes);
+app.use("/api/v1/deals", dealRoutes);
+app.use("/api/v1/companies", companyRoutes);
+app.use("/api/v1/pipelines", pipelineRoutes);
 
 // --------- api status check -------------
 // ..........................................

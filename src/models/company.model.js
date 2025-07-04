@@ -2,13 +2,13 @@ import mongoose from "mongoose";
 
 const { Schema, model } = mongoose;
 
-const LeadSchema = new Schema(
+const CompanySchema = new Schema(
   {
     profilePicture: {
       type: String,
     },
 
-    name: {
+    ownerName: {
       type: String,
       required: true,
     },
@@ -17,9 +17,9 @@ const LeadSchema = new Schema(
       type: String,
       required: true,
     },
-
     email: {
       type: String,
+      required: true,
     },
 
     phone: {
@@ -32,12 +32,7 @@ const LeadSchema = new Schema(
       required: true,
     },
 
-    gender: {
-      type: String,
-      required: true,
-    },
-
-    priority: {
+    taskPriority: {
       type: String,
       enum: ["High", "Medium", "Low"],
       default: "Medium",
@@ -48,10 +43,32 @@ const LeadSchema = new Schema(
       required: true,
     },
 
-    designation: {
+    ownerDesignation: {
       type: String,
       required: true,
     },
+
+    language: {
+      type: String,
+    },
+
+    currency: {
+      type: String,
+    },
+
+    deals: [
+      {
+        type: Schema.Types.ObjectId,
+        ref: "Deal",
+      },
+    ],
+
+    invoices: [
+      {
+        type: Schema.Types.ObjectId,
+        ref: "Invoice",
+      },
+    ],
 
     // ------------- proposals details -----------
     // ..............................................
@@ -79,6 +96,9 @@ const LeadSchema = new Schema(
         type: String,
       },
       pincode: {
+        type: String,
+      },
+      country: {
         type: String,
       },
       fullAddress: {
@@ -143,4 +163,4 @@ const LeadSchema = new Schema(
   { timestamps: true }
 );
 
-export const Lead = model("Lead", LeadSchema);
+export const Company = model("Company", CompanySchema);

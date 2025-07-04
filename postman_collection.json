@@ -1,15 +1,15 @@
 {
   "item": [
     {
-      "id": "a175bf23-3885-4b94-a3d4-07db2862be10",
+      "id": "8f530ab6-a593-4c2f-996b-ae02e0d22599",
       "name": "api/v1",
       "item": [
         {
-          "id": "4ea5912d-b04c-41fe-bf8b-02a9ac144b19",
+          "id": "692d229a-350c-45f3-a870-ec7094a8a3ad",
           "name": "register",
           "item": [
             {
-              "id": "a14a2c24-28d4-443f-84a8-06c7a823246f",
+              "id": "1e7fec5d-1ce3-44a8-94e2-fb7e0671f995",
               "name": "Register a new admin user",
               "request": {
                 "name": "Register a new admin user",
@@ -47,7 +47,7 @@
               },
               "response": [
                 {
-                  "id": "dba0169b-f20e-4eb9-9b9b-ad89c57af51b",
+                  "id": "92aedcc8-574d-44a3-8b99-e941d577f141",
                   "name": "Admin registered successfully",
                   "originalRequest": {
                     "url": {
@@ -97,7 +97,7 @@
                   "_postman_previewlanguage": "text"
                 },
                 {
-                  "id": "9ee04932-3dfa-4dc9-9fc0-6ef90a4fdd46",
+                  "id": "cc9a032f-e444-4aa4-8a1b-bcdd0eb0cec6",
                   "name": "Invalid input",
                   "originalRequest": {
                     "url": {
@@ -153,7 +153,7 @@
               }
             },
             {
-              "id": "512af605-7a45-4a61-a6ab-8eeb1c5a2dd2",
+              "id": "101b8d43-60b1-4e17-96ee-4ddc52a3bf28",
               "name": "Register a new moderator",
               "request": {
                 "name": "Register a new moderator",
@@ -191,7 +191,7 @@
               },
               "response": [
                 {
-                  "id": "6514d916-9dd6-416d-a737-0082941a486b",
+                  "id": "fc6ad0ab-df2c-46fe-aa7f-f4f9d7bbf66d",
                   "name": "Moderator registered successfully",
                   "originalRequest": {
                     "url": {
@@ -241,7 +241,7 @@
                   "_postman_previewlanguage": "text"
                 },
                 {
-                  "id": "6e64e2a1-4613-4776-857c-d30cf0088600",
+                  "id": "e889b3e5-89e1-44cd-9a98-74bae20ef91e",
                   "name": "Invalid input",
                   "originalRequest": {
                     "url": {
@@ -300,7 +300,7 @@
           "event": []
         },
         {
-          "id": "c723def8-9392-45c4-8bec-caf9c0d72367",
+          "id": "2165d655-a4ee-414f-a9a6-25adce9deef6",
           "name": "User login",
           "request": {
             "name": "User login",
@@ -337,7 +337,7 @@
           },
           "response": [
             {
-              "id": "b3bc2feb-a892-4faa-9b9c-71e8295e43ad",
+              "id": "386facf4-187c-499c-9df6-13decac1d9dc",
               "name": "Login successful",
               "originalRequest": {
                 "url": {
@@ -386,7 +386,7 @@
               "_postman_previewlanguage": "text"
             },
             {
-              "id": "3cf1b885-623f-4cac-be96-a45e1d73bfe5",
+              "id": "f30d3753-a58c-4c23-aac8-ec057246ec75",
               "name": "Unauthorized / invalid credentials",
               "originalRequest": {
                 "url": {
@@ -441,11 +441,11 @@
           }
         },
         {
-          "id": "8c900d93-1cb7-4116-8fca-93988e34a814",
+          "id": "86666a4b-4978-4d92-91f9-7f3f774ac5b2",
           "name": "clients",
           "item": [
             {
-              "id": "7d772855-a731-4944-9ff8-4d8392a55a76",
+              "id": "96316c60-8d26-44cb-bfe8-38a4a0f82c39",
               "name": "Create a new client",
               "request": {
                 "name": "Create a new client",
@@ -483,7 +483,7 @@
               },
               "response": [
                 {
-                  "id": "a386f0a2-1e2a-4ef2-8f39-b6ffd5a09065",
+                  "id": "abde251c-1d4f-4dd3-949d-665be74c48fe",
                   "name": "Client created successfully",
                   "originalRequest": {
                     "url": {
@@ -533,7 +533,7 @@
                   "_postman_previewlanguage": "text"
                 },
                 {
-                  "id": "2c7886e5-ee2f-44a6-8ceb-734bcfeebb97",
+                  "id": "921f2efb-8257-470a-a704-e3a29e00962b",
                   "name": "Invalid request",
                   "originalRequest": {
                     "url": {
@@ -589,11 +589,11 @@
               }
             },
             {
-              "id": "0c91f7c0-9c11-4caf-b60e-fd38f94f9e04",
+              "id": "4cfd58cd-9e43-459d-bd02-84885dc57a9e",
               "name": "get-all-clients",
               "item": [
                 {
-                  "id": "1af44902-a392-416d-8ffa-a69466793cfc",
+                  "id": "5b82eb68-5e88-4dc2-93a3-ca0231f908ea",
                   "name": "Get all clients",
                   "request": {
                     "name": "Get all clients",
@@ -616,7 +616,7 @@
                   },
                   "response": [
                     {
-                      "id": "f3bf4849-b44c-43d0-bb32-196f0cd5c49d",
+                      "id": "f421198b-c317-4a8a-a06a-cfa290b6dbb9",
                       "name": "List of all clients",
                       "originalRequest": {
                         "url": {
@@ -664,7 +664,7 @@
                   }
                 },
                 {
-                  "id": "7df1c509-9c40-4512-a286-740108c20268",
+                  "id": "4da245a0-e2ad-4893-9416-ea989b2127a7",
                   "name": "Get a client by ID",
                   "request": {
                     "name": "Get a client by ID",
@@ -696,7 +696,7 @@
                   },
                   "response": [
                     {
-                      "id": "4c0b7bbc-d268-4c71-a8cd-2a8e04349189",
+                      "id": "29030a8b-2b97-4366-8b71-b7b317ec0525",
                       "name": "Client found",
                       "originalRequest": {
                         "url": {
@@ -747,7 +747,7 @@
                       "_postman_previewlanguage": "text"
                     },
                     {
-                      "id": "a7673e48-97be-43c3-bb8d-a1c960ce4a74",
+                      "id": "c98b0f7b-a32b-4f71-9d84-912c5ba8a987",
                       "name": "Client not found",
                       "originalRequest": {
                         "url": {
@@ -807,7 +807,7 @@
               "event": []
             },
             {
-              "id": "57a8d3a3-a494-4a9e-aaa5-59bbe7ffc88d",
+              "id": "135f0f4e-f4f0-4e46-ada4-c6fe24ce17d0",
               "name": "Get clients with filtering and pagination",
               "request": {
                 "name": "Get clients with filtering and pagination",
@@ -856,7 +856,7 @@
               },
               "response": [
                 {
-                  "id": "a66b3d1b-dd75-40d2-8817-51379a014e51",
+                  "id": "02ee13cd-142b-40a5-8188-1d7f01c8bdbe",
                   "name": "Paginated and filtered client list",
                   "originalRequest": {
                     "url": {
@@ -925,7 +925,7 @@
               }
             },
             {
-              "id": "260b4a5a-ff8c-4659-aa72-195596884cbe",
+              "id": "122299d2-885d-4f71-aef7-136f684a4945",
               "name": "Update a client by ID",
               "request": {
                 "name": "Update a client by ID",
@@ -972,7 +972,7 @@
               },
               "response": [
                 {
-                  "id": "126d284e-82db-47d2-b2b2-fec92519dc33",
+                  "id": "3eb3ea87-c4f6-47fc-91ce-6283f962e505",
                   "name": "Client updated successfully",
                   "originalRequest": {
                     "url": {
@@ -1031,7 +1031,7 @@
                   "_postman_previewlanguage": "text"
                 },
                 {
-                  "id": "3fec64fa-c8b2-482a-8dd8-cd5d87bb0e5d",
+                  "id": "d4b72390-f679-4f0c-91f5-c32619b9b881",
                   "name": "Client not found",
                   "originalRequest": {
                     "url": {
@@ -1096,7 +1096,7 @@
               }
             },
             {
-              "id": "091bbc83-3d07-4789-ac03-75ed000df36f",
+              "id": "09c80b78-ccde-4e9b-b4f7-68470b0813ea",
               "name": "Delete a client by ID",
               "request": {
                 "name": "Delete a client by ID",
@@ -1128,7 +1128,7 @@
               },
               "response": [
                 {
-                  "id": "b43d1aae-2003-4b8d-8b5a-71ccea8fad19",
+                  "id": "d5a461c0-a3ee-48cb-96f2-ed4dd60f45f1",
                   "name": "Client deleted successfully",
                   "originalRequest": {
                     "url": {
@@ -1179,7 +1179,7 @@
                   "_postman_previewlanguage": "text"
                 },
                 {
-                  "id": "f3b9578a-9689-4ee1-8caa-25dae974f490",
+                  "id": "9fdc3712-4557-4e78-b795-3715e4dce697",
                   "name": "Client not found",
                   "originalRequest": {
                     "url": {
@@ -1236,7 +1236,7 @@
               }
             },
             {
-              "id": "e931341f-5c4e-4725-a68c-d75a070a1dc8",
+              "id": "31094c98-e49b-46f0-bcd4-e7477d0fa77f",
               "name": "Delete multiple clients by IDs",
               "request": {
                 "name": "Delete multiple clients by IDs",
@@ -1274,7 +1274,7 @@
               },
               "response": [
                 {
-                  "id": "af1d026a-815d-4ca6-9ede-a4ea9dd7fbf8",
+                  "id": "0c8c442f-5afc-4204-bce4-c59bc7bac057",
                   "name": "Clients deleted successfully",
                   "originalRequest": {
                     "url": {
@@ -1333,11 +1333,1327 @@
           "event": []
         },
         {
-          "id": "7d48eb98-fd16-4d36-858e-f35c4c678ec0",
+          "id": "b65bc391-4b64-4077-b54d-6865b9c9fec4",
+          "name": "companies",
+          "item": [
+            {
+              "id": "72947428-3348-4b29-a4d6-5f7d5f31d60c",
+              "name": "Create a new company",
+              "request": {
+                "name": "Create a new company",
+                "description": {},
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "companies",
+                    "create-company"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "auth": null,
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"profilePicture\": \"<string>\",\n  \"ownerName\": \"<string>\",\n  \"source\": \"<string>\",\n  \"email\": \"<email>\",\n  \"phone\": \"<string>\",\n  \"companyName\": \"<string>\",\n  \"taskPriority\": \"<string>\",\n  \"status\": \"<string>\",\n  \"ownerDesignation\": \"<string>\",\n  \"language\": \"<string>\",\n  \"currency\": \"<string>\",\n  \"deals\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"invoices\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"proposals\": {\n    \"description\": \"<string>\",\n    \"amount\": \"<string>\",\n    \"paymentStatus\": \"<string>\"\n  },\n  \"address\": {\n    \"city\": \"<string>\",\n    \"state\": \"<string>\",\n    \"pincode\": \"<string>\",\n    \"country\": \"<string>\",\n    \"fullAddress\": \"<string>\"\n  },\n  \"socialMedia\": {\n    \"facebook\": \"<string>\",\n    \"linkedin\": \"<string>\",\n    \"whatsapp\": \"<string>\",\n    \"instagram\": \"<string>\"\n  },\n  \"contactUs\": {\n    \"skype\": \"<string>\",\n    \"call\": \"<string>\"\n  },\n  \"appointments\": [\n    {\n      \"meetings\": \"<string>\",\n      \"followUps\": \"<string>\",\n      \"notes\": \"<string>\",\n      \"activity\": \"<string>\",\n      \"tasks\": \"<string>\",\n      \"createdAt\": \"<dateTime>\"\n    },\n    {\n      \"meetings\": \"<string>\",\n      \"followUps\": \"<string>\",\n      \"notes\": \"<string>\",\n      \"activity\": \"<string>\",\n      \"tasks\": \"<string>\",\n      \"createdAt\": \"<dateTime>\"\n    }\n  ]\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "response": [
+                {
+                  "id": "bde0c9c0-1f11-4277-9807-752e719c9e31",
+                  "name": "Company created successfully",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "companies",
+                        "create-company"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": []
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "POST",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n  \"profilePicture\": \"<string>\",\n  \"ownerName\": \"<string>\",\n  \"source\": \"<string>\",\n  \"email\": \"<email>\",\n  \"phone\": \"<string>\",\n  \"companyName\": \"<string>\",\n  \"taskPriority\": \"<string>\",\n  \"status\": \"<string>\",\n  \"ownerDesignation\": \"<string>\",\n  \"language\": \"<string>\",\n  \"currency\": \"<string>\",\n  \"deals\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"invoices\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"proposals\": {\n    \"description\": \"<string>\",\n    \"amount\": \"<string>\",\n    \"paymentStatus\": \"<string>\"\n  },\n  \"address\": {\n    \"city\": \"<string>\",\n    \"state\": \"<string>\",\n    \"pincode\": \"<string>\",\n    \"country\": \"<string>\",\n    \"fullAddress\": \"<string>\"\n  },\n  \"socialMedia\": {\n    \"facebook\": \"<string>\",\n    \"linkedin\": \"<string>\",\n    \"whatsapp\": \"<string>\",\n    \"instagram\": \"<string>\"\n  },\n  \"contactUs\": {\n    \"skype\": \"<string>\",\n    \"call\": \"<string>\"\n  },\n  \"appointments\": [\n    {\n      \"meetings\": \"<string>\",\n      \"followUps\": \"<string>\",\n      \"notes\": \"<string>\",\n      \"activity\": \"<string>\",\n      \"tasks\": \"<string>\",\n      \"createdAt\": \"<dateTime>\"\n    },\n    {\n      \"meetings\": \"<string>\",\n      \"followUps\": \"<string>\",\n      \"notes\": \"<string>\",\n      \"activity\": \"<string>\",\n      \"tasks\": \"<string>\",\n      \"createdAt\": \"<dateTime>\"\n    }\n  ]\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Created",
+                  "code": 201,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                },
+                {
+                  "id": "37ae638c-dcb0-46b5-b1be-db8272e47df9",
+                  "name": "Invalid input",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "companies",
+                        "create-company"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": []
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "POST",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n  \"profilePicture\": \"<string>\",\n  \"ownerName\": \"<string>\",\n  \"source\": \"<string>\",\n  \"email\": \"<email>\",\n  \"phone\": \"<string>\",\n  \"companyName\": \"<string>\",\n  \"taskPriority\": \"<string>\",\n  \"status\": \"<string>\",\n  \"ownerDesignation\": \"<string>\",\n  \"language\": \"<string>\",\n  \"currency\": \"<string>\",\n  \"deals\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"invoices\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"proposals\": {\n    \"description\": \"<string>\",\n    \"amount\": \"<string>\",\n    \"paymentStatus\": \"<string>\"\n  },\n  \"address\": {\n    \"city\": \"<string>\",\n    \"state\": \"<string>\",\n    \"pincode\": \"<string>\",\n    \"country\": \"<string>\",\n    \"fullAddress\": \"<string>\"\n  },\n  \"socialMedia\": {\n    \"facebook\": \"<string>\",\n    \"linkedin\": \"<string>\",\n    \"whatsapp\": \"<string>\",\n    \"instagram\": \"<string>\"\n  },\n  \"contactUs\": {\n    \"skype\": \"<string>\",\n    \"call\": \"<string>\"\n  },\n  \"appointments\": [\n    {\n      \"meetings\": \"<string>\",\n      \"followUps\": \"<string>\",\n      \"notes\": \"<string>\",\n      \"activity\": \"<string>\",\n      \"tasks\": \"<string>\",\n      \"createdAt\": \"<dateTime>\"\n    },\n    {\n      \"meetings\": \"<string>\",\n      \"followUps\": \"<string>\",\n      \"notes\": \"<string>\",\n      \"activity\": \"<string>\",\n      \"tasks\": \"<string>\",\n      \"createdAt\": \"<dateTime>\"\n    }\n  ]\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Bad Request",
+                  "code": 400,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "id": "4a612799-460f-4acd-a038-6b901c8f7f2c",
+              "name": "Get all companies",
+              "request": {
+                "name": "Get all companies",
+                "description": {},
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "companies",
+                    "get-company"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET",
+                "auth": null
+              },
+              "response": [
+                {
+                  "id": "593cf4e4-6221-4dd1-b154-4ab14cbb91e0",
+                  "name": "List of companies",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "companies",
+                        "get-company"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": []
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "id": "caf6cd01-f624-4eb9-848f-26a53d300383",
+              "name": "Get a company by ID",
+              "request": {
+                "name": "Get a company by ID",
+                "description": {},
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "companies",
+                    "get-company-by-id",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "method": "GET",
+                "auth": null
+              },
+              "response": [
+                {
+                  "id": "b00583ef-78a1-43c6-901a-abadc5e5c27f",
+                  "name": "Company retrieved successfully",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "companies",
+                        "get-company-by-id",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<string>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                },
+                {
+                  "id": "d7b0f749-ebfe-41ef-9c2a-2561c0d53f35",
+                  "name": "Company not found",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "companies",
+                        "get-company-by-id",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<string>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "id": "d9400e5c-eda8-4733-abfd-719d23de8083",
+              "name": "Update a company by ID",
+              "request": {
+                "name": "Update a company by ID",
+                "description": {},
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "companies",
+                    "update-company",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "method": "PUT",
+                "auth": null,
+                "body": {}
+              },
+              "response": [
+                {
+                  "id": "622fa0a9-b85b-4e44-85e4-bcd0c9a54f27",
+                  "name": "Company updated successfully",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "companies",
+                        "update-company",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<string>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "PUT",
+                    "body": {}
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                },
+                {
+                  "id": "4001c2c2-9edc-43e8-9452-414dbfb97991",
+                  "name": "Company not found",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "companies",
+                        "update-company",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<string>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "PUT",
+                    "body": {}
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "id": "822b1405-d5fa-4cbe-b210-35bfce5388a5",
+              "name": "Delete a company by ID",
+              "request": {
+                "name": "Delete a company by ID",
+                "description": {},
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "companies",
+                    "delete",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "method": "DELETE",
+                "auth": null
+              },
+              "response": [
+                {
+                  "id": "1168122f-38e7-4a67-8aeb-673800704391",
+                  "name": "Company deleted successfully",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "companies",
+                        "delete",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<string>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                },
+                {
+                  "id": "f10a8f5e-6fe3-4366-a407-bd7ec40e0b30",
+                  "name": "Company not found",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "companies",
+                        "delete",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<string>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "c7f2c0d7-f756-4238-9464-c9897bfb3aa0",
+          "name": "deals",
+          "item": [
+            {
+              "id": "20b85144-8155-4584-a041-c2c847ffcd6e",
+              "name": "Create a new deal",
+              "request": {
+                "name": "Create a new deal",
+                "description": {},
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "deals",
+                    "create-deal"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "auth": null,
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"DealName\": \"<string>\",\n  \"DealValue\": \"<string>\",\n  \"pipeline\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"expectedCloseDate\": \"<date>\",\n  \"dueDate\": \"<date>\",\n  \"followUpDate\": \"<date>\",\n  \"stages\": \"<string>\",\n  \"contactPerson\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"contactCompany\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"status\": \"<string>\",\n  \"priority\": \"<string>\",\n  \"period\": \"<string>\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "response": [
+                {
+                  "id": "a33ab744-5557-4cda-8822-5dbb2b084af9",
+                  "name": "Deal created successfully",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "deals",
+                        "create-deal"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": []
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "POST",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n  \"DealName\": \"<string>\",\n  \"DealValue\": \"<string>\",\n  \"pipeline\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"expectedCloseDate\": \"<date>\",\n  \"dueDate\": \"<date>\",\n  \"followUpDate\": \"<date>\",\n  \"stages\": \"<string>\",\n  \"contactPerson\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"contactCompany\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"status\": \"<string>\",\n  \"priority\": \"<string>\",\n  \"period\": \"<string>\"\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Created",
+                  "code": 201,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                },
+                {
+                  "id": "82ecaf23-d60e-402f-bcff-984b41ecbc92",
+                  "name": "Invalid input",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "deals",
+                        "create-deal"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": []
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "POST",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n  \"DealName\": \"<string>\",\n  \"DealValue\": \"<string>\",\n  \"pipeline\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"expectedCloseDate\": \"<date>\",\n  \"dueDate\": \"<date>\",\n  \"followUpDate\": \"<date>\",\n  \"stages\": \"<string>\",\n  \"contactPerson\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"contactCompany\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"status\": \"<string>\",\n  \"priority\": \"<string>\",\n  \"period\": \"<string>\"\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Bad Request",
+                  "code": 400,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "id": "364ca4e9-33b8-488c-812c-cea1406ff2cb",
+              "name": "Get all deals",
+              "request": {
+                "name": "Get all deals",
+                "description": {},
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "deals",
+                    "get-deal"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET",
+                "auth": null
+              },
+              "response": [
+                {
+                  "id": "9919044b-fa4e-433d-8b5b-91a8f33ce99d",
+                  "name": "List of all deals",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "deals",
+                        "get-deal"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": []
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "id": "83cc628d-10a9-4f1a-9e6b-7d75630f9376",
+              "name": "Get deal by ID",
+              "request": {
+                "name": "Get deal by ID",
+                "description": {},
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "deals",
+                    "get-deal-by-id",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "method": "GET",
+                "auth": null
+              },
+              "response": [
+                {
+                  "id": "c345c36a-8d14-4f80-b52f-c2ce42dab193",
+                  "name": "Deal found",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "deals",
+                        "get-deal-by-id",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<string>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                },
+                {
+                  "id": "1010d25f-22af-41b2-a10a-e6a924b64cf5",
+                  "name": "Deal not found",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "deals",
+                        "get-deal-by-id",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<string>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "id": "3901aa10-d5dd-4860-baf9-3ccdc7d6a274",
+              "name": "Update a deal by ID",
+              "request": {
+                "name": "Update a deal by ID",
+                "description": {},
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "deals",
+                    "update-deal",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PUT",
+                "auth": null,
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"DealName\": \"<string>\",\n  \"DealValue\": \"<string>\",\n  \"pipeline\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"expectedCloseDate\": \"<date>\",\n  \"dueDate\": \"<date>\",\n  \"followUpDate\": \"<date>\",\n  \"stages\": \"<string>\",\n  \"contactPerson\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"contactCompany\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"status\": \"<string>\",\n  \"priority\": \"<string>\",\n  \"period\": \"<string>\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "response": [
+                {
+                  "id": "b1043074-52b2-4c53-a18d-dbe5eee2fbee",
+                  "name": "Deal updated successfully",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "deals",
+                        "update-deal",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<string>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "PUT",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n  \"DealName\": \"<string>\",\n  \"DealValue\": \"<string>\",\n  \"pipeline\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"expectedCloseDate\": \"<date>\",\n  \"dueDate\": \"<date>\",\n  \"followUpDate\": \"<date>\",\n  \"stages\": \"<string>\",\n  \"contactPerson\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"contactCompany\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"status\": \"<string>\",\n  \"priority\": \"<string>\",\n  \"period\": \"<string>\"\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                },
+                {
+                  "id": "f37ba810-ff87-47bd-bc04-f9486e95ff70",
+                  "name": "Deal not found",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "deals",
+                        "update-deal",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<string>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "PUT",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n  \"DealName\": \"<string>\",\n  \"DealValue\": \"<string>\",\n  \"pipeline\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"expectedCloseDate\": \"<date>\",\n  \"dueDate\": \"<date>\",\n  \"followUpDate\": \"<date>\",\n  \"stages\": \"<string>\",\n  \"contactPerson\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"contactCompany\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"status\": \"<string>\",\n  \"priority\": \"<string>\",\n  \"period\": \"<string>\"\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "id": "ae9df61d-b390-4e15-84ee-8b3205a328ee",
+              "name": "Delete a deal by ID",
+              "request": {
+                "name": "Delete a deal by ID",
+                "description": {},
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "deals",
+                    "delete-deal",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "method": "DELETE",
+                "auth": null
+              },
+              "response": [
+                {
+                  "id": "97770155-be55-4c38-a33d-26f48f35cc03",
+                  "name": "Deal deleted successfully",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "deals",
+                        "delete-deal",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<string>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                },
+                {
+                  "id": "2db448ec-e195-4c76-a6df-7ec184dce1aa",
+                  "name": "Deal not found",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "deals",
+                        "delete-deal",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<string>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "b5903dd5-3880-4aea-90fc-b0b4f10053fe",
           "name": "invoices",
           "item": [
             {
-              "id": "88a64df7-304f-49f0-b9d7-2b1456ab0688",
+              "id": "26ba9182-4b93-4d5c-b359-87c44af846bd",
               "name": "Generate a new invoice",
               "request": {
                 "name": "Generate a new invoice",
@@ -1375,7 +2691,7 @@
               },
               "response": [
                 {
-                  "id": "fd7393a6-7937-4a2a-847c-b479184b80d7",
+                  "id": "7ec99b52-3914-4e62-8a9e-e82ab7769671",
                   "name": "Invoice generated successfully",
                   "originalRequest": {
                     "url": {
@@ -1425,7 +2741,7 @@
                   "_postman_previewlanguage": "text"
                 },
                 {
-                  "id": "d9ee458d-475f-43f5-a66f-2d5d9c1362b7",
+                  "id": "0f32a78c-5467-40bd-9b6e-8c4f67dd2346",
                   "name": "Invalid request",
                   "originalRequest": {
                     "url": {
@@ -1481,11 +2797,11 @@
               }
             },
             {
-              "id": "60869ec2-9256-455a-843b-768bebf8bdce",
+              "id": "c6313422-476f-4ba8-bfa5-0616b0f0929f",
               "name": "get-all-invoice",
               "item": [
                 {
-                  "id": "6c82fd7a-2ff3-42d8-8e43-00eef7986876",
+                  "id": "9ec15909-5c35-4e1a-a8fd-645c474b7e9d",
                   "name": "Get all invoices",
                   "request": {
                     "name": "Get all invoices",
@@ -1508,7 +2824,7 @@
                   },
                   "response": [
                     {
-                      "id": "87231ed5-979f-411f-b02e-45d83552e3db",
+                      "id": "8511e734-9afb-4793-8a83-7fa197960eb3",
                       "name": "List of all invoices",
                       "originalRequest": {
                         "url": {
@@ -1556,7 +2872,7 @@
                   }
                 },
                 {
-                  "id": "3f356dc9-d2dc-49be-8849-0be1f4172bba",
+                  "id": "9f4df8e1-dc0c-4627-9a73-12462079fb62",
                   "name": "Get invoice by ID",
                   "request": {
                     "name": "Get invoice by ID",
@@ -1588,7 +2904,7 @@
                   },
                   "response": [
                     {
-                      "id": "2db01379-2367-43b7-8529-86f21b4072e9",
+                      "id": "4d7d51f9-75ed-4af2-b0cf-e3bce1fdd4d1",
                       "name": "Invoice found",
                       "originalRequest": {
                         "url": {
@@ -1639,7 +2955,7 @@
                       "_postman_previewlanguage": "text"
                     },
                     {
-                      "id": "0f018c5e-1fab-4c1d-928b-264f1008a113",
+                      "id": "1f212e7f-c2d4-4e14-9154-c1b95f7c25ee",
                       "name": "Invoice not found",
                       "originalRequest": {
                         "url": {
@@ -1699,7 +3015,7 @@
               "event": []
             },
             {
-              "id": "935ef719-38e7-4af2-a21e-3473360b93fa",
+              "id": "b4c23b9d-c7c2-4cb1-b085-804b991b08af",
               "name": "Update an invoice by ID",
               "request": {
                 "name": "Update an invoice by ID",
@@ -1746,7 +3062,7 @@
               },
               "response": [
                 {
-                  "id": "68aa5c9a-d461-45ff-8c65-39e6093f8dcd",
+                  "id": "5a07cd2d-c46e-4bcd-b0a4-e8cd05fbae3e",
                   "name": "Invoice updated successfully",
                   "originalRequest": {
                     "url": {
@@ -1805,7 +3121,7 @@
                   "_postman_previewlanguage": "text"
                 },
                 {
-                  "id": "28a67bdc-b684-4cea-bfd3-0c94b2f5ef19",
+                  "id": "7a4daeda-66e2-461d-bcf5-37b05ebec184",
                   "name": "Invoice not found",
                   "originalRequest": {
                     "url": {
@@ -1870,7 +3186,7 @@
               }
             },
             {
-              "id": "074091b1-89f7-4016-bbad-4286a7abf7bc",
+              "id": "9cb0a03e-d8b9-45d5-98de-2010ef50c7e9",
               "name": "Delete an invoice by ID",
               "request": {
                 "name": "Delete an invoice by ID",
@@ -1902,7 +3218,7 @@
               },
               "response": [
                 {
-                  "id": "9832a6d3-db5b-43e8-947b-8ba8042831bc",
+                  "id": "f5efd85a-52ec-4978-ba96-017eccb38490",
                   "name": "Invoice deleted successfully",
                   "originalRequest": {
                     "url": {
@@ -1953,7 +3269,7 @@
                   "_postman_previewlanguage": "text"
                 },
                 {
-                  "id": "19f47524-74a7-4144-9675-8967cad1a93d",
+                  "id": "1e286f42-e57f-4b38-ae51-42176f1150ab",
                   "name": "Invoice not found",
                   "originalRequest": {
                     "url": {
@@ -2013,11 +3329,11 @@
           "event": []
         },
         {
-          "id": "8c6ee8f8-0b19-4142-b671-1363ca3fad50",
+          "id": "884a9fe6-9e16-48a6-8047-afef492ff1bf",
           "name": "leads",
           "item": [
             {
-              "id": "610cf0b1-7f35-4b2e-bee8-ecd8b6af1152",
+              "id": "21ee44cc-407b-454c-9ad4-ca085b1653af",
               "name": "Create a new lead",
               "request": {
                 "name": "Create a new lead",
@@ -2055,7 +3371,7 @@
               },
               "response": [
                 {
-                  "id": "030b37e5-9b38-450d-9577-61fda21f833e",
+                  "id": "cc26831b-6e6a-45a5-9927-763c15c9203a",
                   "name": "Lead created successfully",
                   "originalRequest": {
                     "url": {
@@ -2105,7 +3421,7 @@
                   "_postman_previewlanguage": "text"
                 },
                 {
-                  "id": "07668824-425b-4c17-8950-dac6f9f2008b",
+                  "id": "2f9a24d9-6368-442d-9464-918878954b3b",
                   "name": "Invalid request",
                   "originalRequest": {
                     "url": {
@@ -2161,11 +3477,11 @@
               }
             },
             {
-              "id": "4597e6d8-8be8-4728-8cb5-cfcc7b918b26",
+              "id": "f386b811-389c-4dc5-b338-2e6963781708",
               "name": "get-all-lead",
               "item": [
                 {
-                  "id": "3b9a1f6d-3c36-4a24-b433-9201904a0d47",
+                  "id": "d37fceae-7626-4444-93e3-3a69e29849f3",
                   "name": "Get all leads",
                   "request": {
                     "name": "Get all leads",
@@ -2188,7 +3504,7 @@
                   },
                   "response": [
                     {
-                      "id": "97c3519e-1fa1-4199-afca-c1f2cd783e63",
+                      "id": "aec1ef60-7eef-49d2-97f2-898093fddb98",
                       "name": "List of all leads",
                       "originalRequest": {
                         "url": {
@@ -2236,7 +3552,7 @@
                   }
                 },
                 {
-                  "id": "ea8b6bcb-d466-4322-a299-189188fbfb79",
+                  "id": "6357f436-d78e-4012-9f5d-a71eee1b2f70",
                   "name": "Get a lead by ID",
                   "request": {
                     "name": "Get a lead by ID",
@@ -2268,7 +3584,7 @@
                   },
                   "response": [
                     {
-                      "id": "07666e4f-cb5d-4898-963e-069e396be755",
+                      "id": "00616ef6-8c13-4731-addd-03115bcf56d2",
                       "name": "Lead found",
                       "originalRequest": {
                         "url": {
@@ -2319,7 +3635,7 @@
                       "_postman_previewlanguage": "text"
                     },
                     {
-                      "id": "695cd6d2-d29c-490e-a2a7-4a5450893b45",
+                      "id": "a9c95349-3d15-4161-8a01-7a5da3b303a1",
                       "name": "Lead not found",
                       "originalRequest": {
                         "url": {
@@ -2379,7 +3695,7 @@
               "event": []
             },
             {
-              "id": "16a8553c-8be1-4a76-9673-9f6cd073ffaf",
+              "id": "e70d5837-e6c9-4612-adbf-35c9ec832a6f",
               "name": "Get leads with filtering and pagination",
               "request": {
                 "name": "Get leads with filtering and pagination",
@@ -2428,7 +3744,7 @@
               },
               "response": [
                 {
-                  "id": "69f43305-e294-421d-9d0f-ae10afda9051",
+                  "id": "39c4b7c8-02b9-431d-b434-96f4e4a793b3",
                   "name": "Paginated and filtered lead list",
                   "originalRequest": {
                     "url": {
@@ -2497,7 +3813,7 @@
               }
             },
             {
-              "id": "71212081-f736-45cc-89ec-c567c6a10ea3",
+              "id": "36da2d4e-9c1e-4892-a19b-2e28634f3b9d",
               "name": "Update a lead by ID",
               "request": {
                 "name": "Update a lead by ID",
@@ -2544,7 +3860,7 @@
               },
               "response": [
                 {
-                  "id": "8752d61e-1ae0-456e-b06a-07c6a95dcfd5",
+                  "id": "373c3904-6a2a-42c1-a785-760cb77def0a",
                   "name": "Lead updated successfully",
                   "originalRequest": {
                     "url": {
@@ -2603,7 +3919,7 @@
                   "_postman_previewlanguage": "text"
                 },
                 {
-                  "id": "c8426a74-c1bd-4733-96dc-37a05ce9eb71",
+                  "id": "dad2a2c4-a089-441e-b77d-914c8794426a",
                   "name": "Lead not found",
                   "originalRequest": {
                     "url": {
@@ -2668,7 +3984,7 @@
               }
             },
             {
-              "id": "d81d0617-8dc7-4acf-9998-6db037b52f99",
+              "id": "bea50cde-70f0-4ef7-a0c1-e3f236368011",
               "name": "Delete a lead by ID",
               "request": {
                 "name": "Delete a lead by ID",
@@ -2700,7 +4016,7 @@
               },
               "response": [
                 {
-                  "id": "c05f2498-32f2-4b3e-a217-9ddb8158dfe5",
+                  "id": "d07bdb0e-b427-42ed-bb4b-f3359b73605d",
                   "name": "Lead deleted successfully",
                   "originalRequest": {
                     "url": {
@@ -2751,7 +4067,7 @@
                   "_postman_previewlanguage": "text"
                 },
                 {
-                  "id": "148f6648-aa5a-4df4-ab30-2c7f6af8ac58",
+                  "id": "1a251601-f38b-46b8-835e-cf7cb579cb33",
                   "name": "Lead not found",
                   "originalRequest": {
                     "url": {
@@ -2808,7 +4124,7 @@
               }
             },
             {
-              "id": "d2bfddae-18b0-49e2-aadb-0dfad2dae9cb",
+              "id": "dba5c6c4-1880-4afe-a507-6abbfab02ce3",
               "name": "Delete multiple leads by IDs",
               "request": {
                 "name": "Delete multiple leads by IDs",
@@ -2846,7 +4162,7 @@
               },
               "response": [
                 {
-                  "id": "34c2f54a-4c4b-40b3-be3b-c1551a52bfc4",
+                  "id": "967b3fdc-c10e-4d47-86f4-4746c3e7d62c",
                   "name": "Leads deleted successfully",
                   "originalRequest": {
                     "url": {
@@ -2905,11 +4221,11 @@
           "event": []
         },
         {
-          "id": "74ec429a-4de9-41bc-877b-722c9fb2401e",
+          "id": "abcb6e6e-3837-4770-abd6-1fb2d552d7cd",
           "name": "mod",
           "item": [
             {
-              "id": "4a6b7554-4452-4732-b44c-7fe582d31b25",
+              "id": "709b87c2-6b10-495e-b5ca-d11fc07a686e",
               "name": "Get all moderators",
               "request": {
                 "name": "Get all moderators",
@@ -2939,7 +4255,7 @@
               },
               "response": [
                 {
-                  "id": "95f1f33e-d92a-4743-aace-ff243d4ba5a5",
+                  "id": "34018e4f-cb2e-4e30-8e94-2961c41b4d29",
                   "name": "List of all moderators",
                   "originalRequest": {
                     "url": {
@@ -2980,7 +4296,7 @@
                   "_postman_previewlanguage": "text"
                 },
                 {
-                  "id": "90ac1ba7-2b5f-45b7-94f9-040310909478",
+                  "id": "ae9b2c41-90f7-4178-8277-cdddbe86f139",
                   "name": "Unauthorized",
                   "originalRequest": {
                     "url": {
@@ -3021,7 +4337,7 @@
                   "_postman_previewlanguage": "text"
                 },
                 {
-                  "id": "85ef1d32-0415-4ec4-8420-ec6f43a04bee",
+                  "id": "9d05e571-cc85-41fd-9982-64b3c3f4b998",
                   "name": "Forbidden",
                   "originalRequest": {
                     "url": {
@@ -3068,7 +4384,7 @@
               }
             },
             {
-              "id": "7db70a3d-c2ce-4e74-a0df-fcdf276c2d62",
+              "id": "b5ce4f94-ec8c-48f0-a9f1-8e5e5270c872",
               "name": "Modify moderator access",
               "request": {
                 "name": "Modify moderator access",
@@ -3123,7 +4439,7 @@
               },
               "response": [
                 {
-                  "id": "3889e184-6e11-4bc6-a1c0-172f26eb67ce",
+                  "id": "c53dc126-1b3d-4dfa-97f7-5bd5cf5af215",
                   "name": "Moderator access modified successfully",
                   "originalRequest": {
                     "url": {
@@ -3182,7 +4498,7 @@
                   "_postman_previewlanguage": "text"
                 },
                 {
-                  "id": "5bdb7bc6-bd2d-42e4-bd1f-1035a165dc85",
+                  "id": "3651f375-cec3-40d2-9685-9ca44cb05ca6",
                   "name": "Unauthorized",
                   "originalRequest": {
                     "url": {
@@ -3241,7 +4557,7 @@
                   "_postman_previewlanguage": "text"
                 },
                 {
-                  "id": "b96ad31d-964c-4bee-af21-7d233cdc427d",
+                  "id": "9a77046a-087e-41f0-b8da-bae3ec44451e",
                   "name": "Forbidden",
                   "originalRequest": {
                     "url": {
@@ -3300,7 +4616,7 @@
                   "_postman_previewlanguage": "text"
                 },
                 {
-                  "id": "c74f6352-61db-4135-8c64-0fed819e5c59",
+                  "id": "bccc26dd-ac22-4649-a4db-a882501fdc3e",
                   "name": "Moderator not found",
                   "originalRequest": {
                     "url": {
@@ -3366,6 +4682,679 @@
             }
           ],
           "event": []
+        },
+        {
+          "id": "1da753ec-011f-4aaf-94a4-f33710e7ac9f",
+          "name": "pipelines",
+          "item": [
+            {
+              "id": "19e7e959-3442-40f2-8f99-67f05b178dcd",
+              "name": "Create a new pipeline",
+              "request": {
+                "name": "Create a new pipeline",
+                "description": {},
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "pipelines",
+                    "create-pipeline"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "auth": null,
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"PipelineName\": \"<string>\",\n  \"status\": \"<string>\",\n  \"totalDealValue\": \"<string>\",\n  \"noOfDeals\": \"<string>\",\n  \"stages\": \"<string>\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "response": [
+                {
+                  "id": "e1b92413-2bda-43da-b360-40e9eeafd8ea",
+                  "name": "Pipeline created successfully",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "pipelines",
+                        "create-pipeline"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": []
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "POST",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n  \"PipelineName\": \"<string>\",\n  \"status\": \"<string>\",\n  \"totalDealValue\": \"<string>\",\n  \"noOfDeals\": \"<string>\",\n  \"stages\": \"<string>\"\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Created",
+                  "code": 201,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                },
+                {
+                  "id": "fe67555d-1604-499d-8135-18b0f8b73fbe",
+                  "name": "Invalid input",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "pipelines",
+                        "create-pipeline"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": []
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "POST",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n  \"PipelineName\": \"<string>\",\n  \"status\": \"<string>\",\n  \"totalDealValue\": \"<string>\",\n  \"noOfDeals\": \"<string>\",\n  \"stages\": \"<string>\"\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Bad Request",
+                  "code": 400,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "id": "6217fb1f-d833-48d6-90a9-ff79075d1a94",
+              "name": "Get all pipelines",
+              "request": {
+                "name": "Get all pipelines",
+                "description": {},
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "pipelines",
+                    "get-pipeline"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET",
+                "auth": null
+              },
+              "response": [
+                {
+                  "id": "c6493c73-46f5-4ce9-8b1b-ee6a40bacf1f",
+                  "name": "List of pipelines",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "pipelines",
+                        "get-pipeline"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": []
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "id": "dc49365c-2edf-417a-84b7-8742a62cc547",
+              "name": "Get a pipeline by ID",
+              "request": {
+                "name": "Get a pipeline by ID",
+                "description": {},
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "pipelines",
+                    "get-pipeline-by-id",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "method": "GET",
+                "auth": null
+              },
+              "response": [
+                {
+                  "id": "c3ff21d0-94c8-4749-96aa-c36cc79698fb",
+                  "name": "Pipeline found",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "pipelines",
+                        "get-pipeline-by-id",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<string>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                },
+                {
+                  "id": "80f232ad-53ed-43f6-8cdd-76e57b83ad2c",
+                  "name": "Pipeline not found",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "pipelines",
+                        "get-pipeline-by-id",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<string>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "id": "fcab0cfc-174c-447b-9f25-83da67ebf8df",
+              "name": "Update a pipeline by ID",
+              "request": {
+                "name": "Update a pipeline by ID",
+                "description": {},
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "pipelines",
+                    "update-pipeline",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PUT",
+                "auth": null,
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"PipelineName\": \"<string>\",\n  \"totalDealValue\": \"<string>\",\n  \"noOfDeals\": \"<string>\",\n  \"stages\": \"<string>\",\n  \"status\": \"<string>\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "response": [
+                {
+                  "id": "67fed542-2ac0-4369-9232-698ac93ea2ba",
+                  "name": "Pipeline updated successfully",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "pipelines",
+                        "update-pipeline",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<string>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "PUT",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n  \"PipelineName\": \"<string>\",\n  \"totalDealValue\": \"<string>\",\n  \"noOfDeals\": \"<string>\",\n  \"stages\": \"<string>\",\n  \"status\": \"<string>\"\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                },
+                {
+                  "id": "e62c885d-4681-4152-a121-0d99aca76a4c",
+                  "name": "Pipeline not found",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "pipelines",
+                        "update-pipeline",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<string>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "PUT",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n  \"PipelineName\": \"<string>\",\n  \"totalDealValue\": \"<string>\",\n  \"noOfDeals\": \"<string>\",\n  \"stages\": \"<string>\",\n  \"status\": \"<string>\"\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "id": "54f9cf66-11f0-41e7-94d8-9cf107ec0246",
+              "name": "Delete a pipeline by ID",
+              "request": {
+                "name": "Delete a pipeline by ID",
+                "description": {},
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "pipelines",
+                    "delete-pipeline",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "method": "DELETE",
+                "auth": null
+              },
+              "response": [
+                {
+                  "id": "2bab3dc0-d1d3-459b-89cf-f52f887502c1",
+                  "name": "Pipeline deleted successfully",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "pipelines",
+                        "delete-pipeline",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<string>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                },
+                {
+                  "id": "de72cbbf-d5cc-498a-8251-041bbe7d1922",
+                  "name": "Pipeline not found",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "v1",
+                        "pipelines",
+                        "delete-pipeline",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<string>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            }
+          ],
+          "event": []
         }
       ],
       "event": []
@@ -3389,7 +5378,7 @@
     ]
   },
   "info": {
-    "_postman_id": "229a9f55-01ad-43df-8266-3124c84690c2",
+    "_postman_id": "f56ded2e-8640-44db-91dd-0eb220e44ffe",
     "name": "Nxerra CRM API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {
