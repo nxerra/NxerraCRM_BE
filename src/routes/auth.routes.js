@@ -162,4 +162,59 @@ router.post("/register/moderator", AuthController.registerModerator);
  */
 router.post("/login", AuthController.login);
 
+/**
+ * @swagger
+ * /api/v1/forgot-password:
+ *   post:
+ *     summary: Request a password reset link
+ *     tags: [Auth]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               email:
+ *                 type: string
+ *                 format: email
+ *             required:
+ *               - email
+ *     responses:
+ *       200:
+ *         description: Reset link sent
+ *       400:
+ *         description: Error processing request
+ */
+router.post("/forgot-password", AuthController.forgotPassword);
+
+/**
+ * @swagger
+ * /api/v1/reset-password:
+ *   post:
+ *     summary: Reset user password using token
+ *     tags: [Auth]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               token:
+ *                 type: string
+ *               newPassword:
+ *                 type: string
+ *                 format: password
+ *             required:
+ *               - token
+ *               - newPassword
+ *     responses:
+ *       200:
+ *         description: Password reset successful
+ *       400:
+ *         description: Invalid or expired token
+ */
+router.post("/reset-password", AuthController.resetPassword);
+
 export default router;
