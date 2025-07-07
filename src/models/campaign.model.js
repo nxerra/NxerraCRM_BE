@@ -47,7 +47,7 @@ const CampaignSchema = new Schema(
 
 
      members: {
-      type: String,
+      type: [String],
       required: true,
     },
 
