@@ -1,5 +1,8 @@
 import * as DealService from "../services/deal.service.js";
 
+
+// ------------- to create a deal ---------------
+// ....................................................
 export const createDeal = async (req, res) => {
   try {
     const deal = await DealService.createDeal(req.body);
@@ -9,6 +12,9 @@ export const createDeal = async (req, res) => {
   }
 };
 
+
+// ------------- to get all deal ---------------
+// ....................................................
 export const getAllDeals = async (req, res) => {
   try {
     const deals = await DealService.getAllDeals();
@@ -18,6 +24,8 @@ export const getAllDeals = async (req, res) => {
   }
 };
 
+// ------------- to get a deal by id ---------------
+// ....................................................
 export const getDealById = async (req, res) => {
   try {
     const deal = await DealService.getDealById(req.params.id);
@@ -27,6 +35,9 @@ export const getDealById = async (req, res) => {
   }
 };
 
+
+// ------------- to update a deal ---------------
+// ....................................................
 export const updateDeal = async (req, res) => {
   try {
     const updated = await DealService.updateDeal(req.params.id, req.body);
@@ -36,6 +47,9 @@ export const updateDeal = async (req, res) => {
   }
 };
 
+
+// ------------- to delete a deal ---------------
+// ....................................................
 export const deleteDeal = async (req, res) => {
   try {
     await DealService.deleteDeal(req.params.id);

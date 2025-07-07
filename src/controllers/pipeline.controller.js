@@ -1,5 +1,8 @@
 import * as PipelineService from "../services/pipeline.service.js";
 
+
+// ------------- to create a piepeline ---------------
+// ....................................................
 export const createPipeline = async (req, res) => {
   try {
     const pipeline = await PipelineService.createPipeline(req.body);
@@ -9,6 +12,9 @@ export const createPipeline = async (req, res) => {
   }
 };
 
+
+// ------------- to get all pipelines ---------------
+// ....................................................
 export const getAllPipelines = async (req, res) => {
   try {
     const pipelines = await PipelineService.getAllPipelines();
@@ -18,6 +24,9 @@ export const getAllPipelines = async (req, res) => {
   }
 };
 
+
+// ------------- to get pipeline by id ---------------
+// ....................................................
 export const getPipelineById = async (req, res) => {
   try {
     const pipeline = await PipelineService.getPipelineById(req.params.id);
@@ -28,6 +37,9 @@ export const getPipelineById = async (req, res) => {
   }
 };
 
+
+// ------------- to update a pipeline ---------------
+// ....................................................
 export const updatePipeline = async (req, res) => {
   try {
     const updatedPipeline = await PipelineService.updatePipeline(
@@ -42,6 +54,9 @@ export const updatePipeline = async (req, res) => {
   }
 };
 
+
+// ------------- to delete a pipeline ---------------
+// ....................................................
 export const deletePipeline = async (req, res) => {
   try {
     const deletedPipeline = await PipelineService.deletePipeline(req.params.id);

@@ -1,5 +1,8 @@
 import * as CompanyService from "../services/company.service.js";
 
+
+// ------------- For company creation ---------------
+// ....................................................
 export const createCompany = async (req, res) => {
   try {
     const company = await CompanyService.createCompany(req.body);
@@ -9,6 +12,9 @@ export const createCompany = async (req, res) => {
   }
 };
 
+
+// ------------- to fetch all the companies ---------------
+// ....................................................
 export const getAllCompanies = async (req, res) => {
   try {
     const companies = await CompanyService.getAllCompanies();
@@ -18,6 +24,9 @@ export const getAllCompanies = async (req, res) => {
   }
 };
 
+
+// ------------- to fetch all the company according to their id ---------------
+// ....................................................
 export const getCompanyById = async (req, res) => {
   try {
     const company = await CompanyService.getCompanyById(req.params.id);
@@ -28,6 +37,9 @@ export const getCompanyById = async (req, res) => {
   }
 };
 
+
+// ------------- to update the company missing details ---------------
+// ....................................................
 export const updateCompany = async (req, res) => {
   try {
     const updatedCompany = await CompanyService.updateCompany(
@@ -42,6 +54,9 @@ export const updateCompany = async (req, res) => {
   }
 };
 
+
+// ------------- to delete the company ---------------
+// ....................................................
 export const deleteCompany = async (req, res) => {
   try {
     const deletedCompany = await CompanyService.deleteCompany(req.params.id);

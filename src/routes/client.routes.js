@@ -234,7 +234,7 @@ router.delete("/delete-clients/:id", ClientController.deleteClient);
 /**
  * @swagger
  * /api/v1/clients/bulk:
- *   delete:
+ *   post:
  *     summary: Delete multiple clients by IDs
  *     tags: [Clients]
  *     requestBody:
@@ -252,6 +252,6 @@ router.delete("/delete-clients/:id", ClientController.deleteClient);
  *       200:
  *         description: Clients deleted successfully
  */
-router.delete("/bulk", ClientController.deleteMultipleClients);
+router.post("/bulk", ClientController.deleteMultipleClients);
 
 export default router;

@@ -184,7 +184,7 @@ router.delete("/delete-campaign/:id", CampaignController.deleteCampaign);
 /**
  * @swagger
  * /api/v1/campaigns/bulk:
- *   delete:
+ *   post:
  *     summary: Delete multiple campaigns by IDs
  *     tags: [Campaigns]
  *     requestBody:
@@ -202,6 +202,6 @@ router.delete("/delete-campaign/:id", CampaignController.deleteCampaign);
  *       200:
  *         description: Campaigns deleted successfully
  */
-router.delete("/bulk", CampaignController.deleteMultipleCampaigns);
+router.post("/bulk", CampaignController.deleteMultipleCampaigns);
 
 export default router;
