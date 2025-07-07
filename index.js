@@ -13,6 +13,8 @@ import dealRoutes from "./src/routes/deal.routes.js";
 import companyRoutes from "./src/routes/company.routes.js";
 import pipelineRoutes from "./src/routes/pipeline.routes.js";
 import campaignRoutes from "./src/routes/campaign.routes.js";
+import teamRoutes from "./src/routes/team.routes.js";
+import projectRoutes from "./src/routes/project.routes.js";
 import { setupSwaggerDocs } from "./src/docs/swagger.js";
 
 dotenv.config();
@@ -38,6 +40,8 @@ app.use("/api/v1/deals", dealRoutes);
 app.use("/api/v1/companies", companyRoutes);
 app.use("/api/v1/pipelines", pipelineRoutes);
 app.use('/api/v1/campaigns', campaignRoutes);
+app.use("/api/v1/teams", teamRoutes);
+app.use("/api/v1/projects", projectRoutes);
 
 // --------- api status check -------------
 // ..........................................

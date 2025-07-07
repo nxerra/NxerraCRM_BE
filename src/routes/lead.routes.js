@@ -224,7 +224,7 @@ router.delete("/delete-lead/:id", LeadController.deleteLead);
 /**
  * @swagger
  * /api/v1/leads/bulk:
- *   delete:
+ *   post:
  *     summary: Delete multiple leads by IDs
  *     tags: [Leads]
  *     requestBody:
@@ -242,6 +242,6 @@ router.delete("/delete-lead/:id", LeadController.deleteLead);
  *       200:
  *         description: Leads deleted successfully
  */
-router.delete("/bulk", LeadController.deleteMultipleLeads);
+router.post("/bulk", LeadController.deleteMultipleLeads);
 
 export default router;
