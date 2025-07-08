@@ -37,7 +37,7 @@ const router = express.Router();
  *                 type: string
  *               designation:
  *                 type: string
- *               department:
+ *               whatsapp:
  *                 type: string
  *               profilePicture:
  *                 type: string
