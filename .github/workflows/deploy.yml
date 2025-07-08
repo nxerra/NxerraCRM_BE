@@ -1,4 +1,4 @@
-name: Auto Deploy Backend via SSH
+name: 🚀 Deploy Backend to Server
 
 on:
   push:
@@ -7,6 +7,7 @@ on:
 
 jobs:
   deploy:
+    name: Deploy via SSH
     runs-on: ubuntu-latest
 
     steps:
@@ -16,14 +17,13 @@ jobs:
     - name: Setup SSH
       uses: webfactory/ssh-agent@v0.9.0
       with:
-        ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+        ssh-private-key: ${{ secrets.SSH_KEY }}
 
     - name: Deploy to Server
       run: |
         ssh -o StrictHostKeyChecking=no root@143.198.222.151 << 'EOF'
           cd /var/www/apicrm.mydevnxerra.com/backend/NxerraCRM_BE
-          git reset --hard
           git pull origin main
-          npm install
-          pm2 restart apicrm-backend
+          npm install --legacy-peer-deps
+          pm2 restart all
         EOF
