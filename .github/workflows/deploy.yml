@@ -26,8 +26,8 @@ jobs:
           set -x
 
           echo "➡️ Switching to project directory"
-          cd /var/www/apicrm.mydevnxerra.com/backend
-
+          cd /var/www/apicrm.mydevnxerra.com/NxerraCRM_BE
+          
           echo "🔁 Git Pull"
           git reset --hard origin/main
           git pull origin main
