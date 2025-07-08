@@ -22,13 +22,29 @@ jobs:
     - name: Deploy to Server
       run: |
         ssh -o StrictHostKeyChecking=no root@143.198.222.151 << 'EOF'
-          echo "➡️ Entering project directory..."
-            cd /var/www/apicrm.mydevnxerra.com/backend/NxerraCRM_BE
-            echo "🔁 Git Pull..."
-            git reset --hard origin/main
-            git pull origin main
-            echo "📦 NPM Install..."
-            npm install --legacy-peer-deps
-            echo "🚀 Restart PM2"
-            pm2 restart all
-          EOF
+          set -e
+          set -x
+
+          echo "➡️ Switching to project directory"
+          cd /var/www/apicrm.mydevnxerra.com/backend/NxerraCRM_BE
+
+          echo "🔁 Git Pull"
+          git reset --hard origin/main
+          git pull origin main
+
+          echo "📦 Installing npm dependencies"
+          if ! command -v npm &> /dev/null; then
+            echo "❌ npm not found. Aborting."
+            exit 127
+          fi
+
+          npm install --legacy-peer-deps
+
+          echo "🚀 Restarting PM2"
+          if ! command -v pm2 &> /dev/null; then
+            echo "❌ pm2 not found. Aborting."
+            exit 127
+          fi
+
+          pm2 restart all || pm2 start index.js
+        EOF
