@@ -12,7 +12,7 @@ const router = express.Router();
 
 /**
  * @swagger
- * /api/v1/register/admin:
+ * /api/v1/auth/register/admin:
  *   post:
  *     summary: Register a new admin user
  *     tags: [Auth]
@@ -73,7 +73,7 @@ router.post("/register/admin", AuthController.registerAdmin);
 
 /**
  * @swagger
- * /api/v1/register/moderator:
+ * /api/v1/auth/register/moderator:
  *   post:
  *     summary: Register a new moderator
  *     tags: [Auth]
@@ -134,7 +134,7 @@ router.post("/register/moderator", AuthController.registerModerator);
 
 /**
  * @swagger
- * /api/v1/login:
+ * /api/v1/auth/login:
  *   post:
  *     summary: User login
  *     tags: [Auth]
@@ -164,7 +164,7 @@ router.post("/login", AuthController.login);
 
 /**
  * @swagger
- * /api/v1/forgot-password:
+ * /api/v1/auth/forgot-password:
  *   post:
  *     summary: Request a password reset link
  *     tags: [Auth]
@@ -190,7 +190,7 @@ router.post("/forgot-password", AuthController.forgotPassword);
 
 /**
  * @swagger
- * /api/v1/reset-password:
+ * /api/v1/auth/reset-password:
  *   post:
  *     summary: Reset user password using token
  *     tags: [Auth]
