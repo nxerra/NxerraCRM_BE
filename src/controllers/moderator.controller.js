@@ -40,7 +40,7 @@ export const modifyModeratorAccess = async (req, res) => {
   }
 };
 
-// ------------- to get all moderator ---------------
+// ------------- to get all moderators ---------------
 // ....................................................
 export const getAllModerators = async (req, res) => {
   try {
