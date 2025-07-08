@@ -15,6 +15,7 @@ import pipelineRoutes from "./src/routes/pipeline.routes.js";
 import campaignRoutes from "./src/routes/campaign.routes.js";
 import teamRoutes from "./src/routes/team.routes.js";
 import projectRoutes from "./src/routes/project.routes.js";
+import userRoutes from "./src/routes/user.routes.js";
 import { setupSwaggerDocs } from "./src/docs/swagger.js";
 
 dotenv.config();
@@ -46,6 +47,8 @@ app.use("/api/v1/pipelines", pipelineRoutes);
 app.use('/api/v1/campaigns', campaignRoutes);
 app.use("/api/v1/teams", teamRoutes);
 app.use("/api/v1/projects", projectRoutes);
+app.use("/api/v1/auth/user", userRoutes);
+
 
 // --------- api status check -------------
 // ..........................................
