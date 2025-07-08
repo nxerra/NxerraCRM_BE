@@ -22,14 +22,13 @@ jobs:
     - name: Deploy to Server
       run: |
         ssh -o StrictHostKeyChecking=no root@143.198.222.151 << 'EOF'
-          echo "📁 Current Dir: $(pwd)"
-          cd /var/www/apicrm.mydevnxerra.com/backend/NxerraCRM_BE
-          echo "📂 Current Git Branch:"
-          git branch
-          echo "🔁 Pulling from Git"
-          git pull origin main
-          echo "🧩 Installing dependencies"
-          npm install --legacy-peer-deps
-          echo "🚀 Restarting PM2"
-          pm2 restart all
-        EOF
+          echo "➡️ Entering project directory..."
+            cd /var/www/apicrm.mydevnxerra.com/backend/NxerraCRM_BE
+            echo "🔁 Git Pull..."
+            git reset --hard origin/main
+            git pull origin main
+            echo "📦 NPM Install..."
+            npm install --legacy-peer-deps
+            echo "🚀 Restart PM2"
+            pm2 restart all
+          EOF
