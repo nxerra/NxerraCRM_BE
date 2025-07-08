@@ -7,7 +7,7 @@ const router = express.Router();
  * @swagger
  * tags:
  *   name: Tasks
- *   description: Task management endpoints
+ *   description: Task management for client and company with assgined user endpoints
  */
 
 /**
