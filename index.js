@@ -26,7 +26,11 @@ const app = express();
 app.use(morgan("dev"));
 const { json, urlencoded } = bodyParser; // Destructure from default
 app.use(urlencoded({ extended: true }));
-app.use(cors());
+// app.use(cors());
+app.use(cors({
+  origin: "http://localhost:4200", // Replace with your frontend URL in production
+  credentials: true // If you're using cookies/sessions
+}));
 app.use(json());
 app.use(express.json());
 
