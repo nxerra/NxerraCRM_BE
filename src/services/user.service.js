@@ -34,7 +34,7 @@ import bcrypt from "bcryptjs";
 
 export const updateProfile = async (userId, profileData) => {
   const allowedFields = [
-    "name", "phone", "address", "password", "designation", "department", "profilePicture"
+    "name", "phone", "address", "password", "designation", "department", "whatsapp", "profilePicture"
   ];
 
   const update = {};
@@ -59,6 +59,7 @@ export const updateProfile = async (userId, profileData) => {
     name: user.name,
     phone: user.phone,
     address: user.address,
+    whatsapp: user.whatsapp,
     designation: user.designation,
     department: user.department,
     profilePicture: user.profilePicture,
