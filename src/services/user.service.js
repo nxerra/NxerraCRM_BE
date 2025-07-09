@@ -1,9 +1,40 @@
 import { User } from "../models/user.model.js";
+import bcrypt from "bcryptjs";
 
 // Create or update user profile
+// export const updateProfile = async (userId, profileData) => {
+//   const allowedFields = [
+//     "name", "phone", "address", "password", "designation", "department", "profilePicture"
+//   ];
+
+//   const update = {};
+//   for (const key of allowedFields) {
+//     if (profileData[key] !== undefined) {
+//       update[key] = profileData[key];
+//     }
+//   }
+
+//   const user = await User.findByIdAndUpdate(userId, update, { new: true });
+//   if (!user) throw new Error("User not found");
+
+//   return {
+//     id: user._id,
+//     email: user.email,
+//     password: user.password,
+//     name: user.name,
+//     phone: user.phone,
+//     address: user.address,
+//     designation: user.designation,
+//     department: user.department,
+//     profilePicture: user.profilePicture,
+//     role: user.role,
+//     canAccess: user.canAccess,
+//   };
+// };
+
 export const updateProfile = async (userId, profileData) => {
   const allowedFields = [
-    "name", "phone", "address", "designation", "department", "profilePicture"
+    "name", "phone", "address", "password", "designation", "department", "profilePicture"
   ];
 
   const update = {};
@@ -13,12 +44,18 @@ export const updateProfile = async (userId, profileData) => {
     }
   }
 
+  // Manually hash password if it's present
+  if (update.password) {
+    update.password = await bcrypt.hash(update.password, 12);
+  }
+
   const user = await User.findByIdAndUpdate(userId, update, { new: true });
   if (!user) throw new Error("User not found");
 
   return {
     id: user._id,
     email: user.email,
+    password: user.password,
     name: user.name,
     phone: user.phone,
     address: user.address,
