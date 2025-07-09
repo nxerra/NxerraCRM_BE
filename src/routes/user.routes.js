@@ -1,6 +1,16 @@
 import express from "express";
 import * as UserController from "../controllers/user.controller.js";
 import { authenticateToken } from "../middleware/auth.middleware.js";
+import multer from 'multer';
+const upload = multer({ storage: multer.memoryStorage() });
+
+// import { profileImageUpload } from "../utils/s3.config.js";
+// router.put(
+//   "/update-profile/:id",
+//   authenticateToken,
+//   profileImageUpload,
+//   UserController.updateProfile
+// );
 
 const router = express.Router();
 
@@ -46,9 +56,13 @@ router.get("/get-profile", authenticateToken , UserController.getProfile);
  *                 type: string
  *               phone:
  *                 type: string
+ *               password:
+ *                 type: string
  *               address:
  *                 type: string
  *               designation:
+ *                 type: string
+ *               department:
  *                 type: string
  *               whatsapp:
  *                 type: string
@@ -62,7 +76,7 @@ router.get("/get-profile", authenticateToken , UserController.getProfile);
  *       401:
  *         description: Unauthorized
  */
-router.put("/update-profile/:id", authenticateToken , UserController.updateProfile);
+router.put("/update-profile/:id", authenticateToken , upload.single("profilePicture"), UserController.updateProfile);
 
 /**
  * @swagger
