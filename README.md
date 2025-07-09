@@ -52,6 +52,6 @@ node scripts/generatePostman.js
 
 ```bash
 {
-"message": "Hello Developer, Your server is running well. You can move forward for development. Thank You"
+"message": "Hello Developer's, Your server is running well. You can move forward for development. Thank You"
 }
 ```
