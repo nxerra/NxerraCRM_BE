@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 app.use(userRoutes);
 if (process.env.NODE_ENV !== "test") {
-  const PORT = process.env.PORT || 5000;
+  const PORT = process.env.PORT || 5005;
   app.listen(PORT, () => console.log(`Boyaah, Server running on port ${PORT}`));
 }
 export default app;
