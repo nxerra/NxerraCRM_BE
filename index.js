@@ -29,12 +29,29 @@ app.use(morgan("dev"));
 const { json, urlencoded } = bodyParser; // Destructure from default
 app.use(urlencoded({ extended: true }));
 // app.use(cors());
+// app.use(cors({
+//   origin: "http://localhost:4200",
+//   credentials: true
+// }));
+const allowedOrigins = [
+  "http://localhost:4200",
+  "https://crm.mydevnxerra.com",
+];
 app.use(cors({
-  origin: "http://localhost:4200", // Replace with your frontend URL in production
-  credentials: true // If you're using cookies/sessions
+  origin: function (origin, callback) {
+    // allow requests with no origin (like mobile apps or curl)
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    } else {
+      return callback(new Error("Not allowed by CORS"));
+    }
+  },
+  credentials: true
 }));
 app.use(json());
 app.use(express.json());
+
 
 // -------- all api routes ----------
 app.use("/api/v1/auth", authRoutes);
@@ -45,11 +62,11 @@ app.use("/api/v1/leads", leadRoutes);
 app.use("/api/v1/deals", dealRoutes);
 app.use("/api/v1/companies", companyRoutes);
 app.use("/api/v1/pipelines", pipelineRoutes);
-app.use('/api/v1/campaigns', campaignRoutes);
+app.use("/api/v1/campaigns", campaignRoutes);
 app.use("/api/v1/teams", teamRoutes);
 app.use("/api/v1/projects", projectRoutes);
 app.use("/api/v1/auth/user", userRoutes);
-app.use('/api/v1/tasks', taskRoutes);
+app.use("/api/v1/tasks", taskRoutes);
 
 
 // --------- api status check -------------
