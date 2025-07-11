@@ -44,12 +44,34 @@ export const getProfile = async (req, res) => {
 };
 
 // Delete user
+// export const deleteUser = async (req, res) => {
+//   try {
+//     const userId = req.user.id;
+//     const result = await UserService.deleteUser(userId);
+//     res.json(result);
+//   } catch (err) {
+//     res.status(400).json({ error: err.message || "User deletion failed" });
+//   }
+// };
+
 export const deleteUser = async (req, res) => {
   try {
     const userId = req.user.id;
+    const { email: confirmationEmail } = req.body;
+
+    const user = await UserService.getProfile(userId);
+    if (!user) {
+      return res.status(404).json({ error: "User not found" });
+    }
+
+    if (user.email !== confirmationEmail) {
+      return res.status(400).json({ error: "Email does not match registered email" });
+    }
+
     const result = await UserService.deleteUser(userId);
     res.json(result);
   } catch (err) {
     res.status(400).json({ error: err.message || "User deletion failed" });
   }
 };
+
