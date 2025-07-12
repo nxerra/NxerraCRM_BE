@@ -51,7 +51,8 @@ export const login = async (req, res) => {
   }
 };
 
-// Request reset link
+// ------------- Request reset link ---------------
+// ....................................................
 export const forgotPassword = async (req, res) => {
   try {
     const { email } = req.body;
@@ -62,7 +63,8 @@ export const forgotPassword = async (req, res) => {
   }
 };
 
-// Perform reset
+// ------------- Perform reset through email ---------------
+// ....................................................
 export const resetPassword = async (req, res) => {
   try {
     const { token, newPassword } = req.body;

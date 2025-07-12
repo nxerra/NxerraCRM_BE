@@ -29,7 +29,9 @@ export const sendProjectAssignmentEmail = async (projectName, teamLeaderId, resp
 
     // Setup transporter
     const transporter = nodemailer.createTransport({
-      service: "gmail",
+      host: "smtp.titan.email",       // Titan SMTP server
+      port: 465,                           // SSL/TLS port
+      secure: true,  
       auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
